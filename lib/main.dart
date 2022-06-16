@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.cyan,
         body: SafeArea(
           child: Center(
             child: Column(
@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                     height: 10,
                     width: 150.0,
                     child: Divider(
-                      thickness: 2,
+                      thickness: 1.5,
                       color: Colors.teal.shade100,
                     ),
                   ),
@@ -63,15 +63,15 @@ class MyApp extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.all(1.0),
                       child: ListTile(
-                        leading: const Icon(
+                        leading: Icon(
                           Icons.phone,
-                          color: Colors.teal,
+                          color: Colors.cyan.shade800,
                         ),
                         title: Text(
                           '+233 55 955 3435',
                           style: TextStyle(
                             fontFamily: 'SourceSansPro',
-                            color: Colors.teal.shade900,
+                            color: Colors.cyan.shade800,
                             fontSize: 20.0,
                           ),
                         ),
@@ -89,15 +89,15 @@ class MyApp extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(1.0),
                         child: ListTile(
-                          leading: const Icon(
+                          leading: Icon(
                             Icons.email,
-                            color: Colors.teal,
+                            color: Colors.cyan.shade800,
                           ),
                           title:Text(
                             'nyan.ntim@gmail.com',
                             style: TextStyle(
                               fontSize: 20,
-                              color: Colors.teal[900],
+                              color: Colors.cyan.shade800,
                               fontFamily: 'SourceSansPro',
                             ),
                           ),
