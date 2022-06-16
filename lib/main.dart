@@ -34,21 +34,24 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'Pacifico',
                   ),
                 ),
-                Text(
+                const Text(
                   'FLUTTER DEVELOPER',
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.teal[100],
+                    color: Colors.white,
                     fontFamily: 'SourceSansPro',
                     letterSpacing: 2.0,
                   ),
                 ),
-                SizedBox(
-                  height: 10,
-                  width: 150.0,
-                  child: Divider(
-                    thickness: 1,
-                    color: Colors.teal.shade100,
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 5.0, top: 1.0),
+                  child: SizedBox(
+                    height: 10,
+                    width: 150.0,
+                    child: Divider(
+                      thickness: 2,
+                      color: Colors.teal.shade100,
+                    ),
                   ),
                 ),
                 Center(
